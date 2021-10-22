@@ -32,3 +32,4 @@ C:\Users\cmontano\Reactivities\API\obj\Debug\net5.0\API.dll
 C:\Users\cmontano\Reactivities\API\obj\Debug\net5.0\ref\API.dll
 C:\Users\cmontano\Reactivities\API\obj\Debug\net5.0\API.pdb
 C:\Users\cmontano\Reactivities\API\obj\Debug\net5.0\API.genruntimeconfig.cache
+C:\Users\cmontano\Reactivities\API\obj\Debug\net5.0\API.csproj.CopyComplete
