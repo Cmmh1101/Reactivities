@@ -14,3 +14,4 @@ C:\Users\cmontano\Reactivities\Application\obj\Debug\net5.0\Application.csproj.C
 C:\Users\cmontano\Reactivities\Application\obj\Debug\net5.0\Application.dll
 C:\Users\cmontano\Reactivities\Application\obj\Debug\net5.0\ref\Application.dll
 C:\Users\cmontano\Reactivities\Application\obj\Debug\net5.0\Application.pdb
+C:\Users\cmontano\Reactivities\Application\obj\Debug\net5.0\Application.csproj.CopyComplete
