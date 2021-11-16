@@ -1,4 +1,4 @@
-import React from "react";
+import React, { ChangeEvent, useState } from "react";
 import {
   Button,
   Form,
@@ -13,16 +13,72 @@ interface Props {
   closeForm: () => void;
 }
 
-export default function ActivityForm({ activity, closeForm }: Props) {
+export default function ActivityForm({
+  activity: selectedActivity,
+  closeForm,
+}: Props) {
+  const initialState = selectedActivity ?? {
+    id: "",
+    title: "",
+    category: "",
+    description: "",
+    date: "",
+    city: "",
+    venue: "",
+  };
+
+  const [activity, setActivity] = useState(initialState);
+
+  function handleSubmit() {
+    console.log(activity);
+  }
+
+  function handleInputChange(
+    event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) {
+    const { name, value } = event.target;
+    setActivity({ ...activity, [name]: value });
+  }
+
   return (
     <Segment clearing>
-      <Form>
-        <FormInput placeholder="Title" />
-        <FormTextArea placeholder="Description" />
-        <FormInput placeholder="Category" />
-        <FormInput placeholder="Date" />
-        <FormInput placeholder="City" />
-        <FormInput placeholder="Venue" />
+      <Form onSubmit={handleSubmit} autoComplete="off">
+        <FormInput
+          placeholder="Title"
+          value={activity.title}
+          name="title"
+          onChange={handleInputChange}
+        />
+        <FormTextArea
+          placeholder="Description"
+          value={activity.description}
+          name="description"
+          onChange={handleInputChange}
+        />
+        <FormInput
+          placeholder="Category"
+          value={activity.category}
+          name="category"
+          onChange={handleInputChange}
+        />
+        <FormInput
+          placeholder="Date"
+          value={activity.date}
+          name="date"
+          onChange={handleInputChange}
+        />
+        <FormInput
+          placeholder="City"
+          value={activity.city}
+          name="city"
+          onChange={handleInputChange}
+        />
+        <FormInput
+          placeholder="Venue"
+          value={activity.venue}
+          name="venue"
+          onChange={handleInputChange}
+        />
         <Button floated="right" positive type="submit" content="submit" />
         <Button
           onClick={closeForm}
