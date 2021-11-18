@@ -15,7 +15,7 @@ export default function NavBar({ openForm }: Props) {
             alt="logo"
             style={{ marginRight: "10px" }}
           />
-          Reactivities
+          ReactivitiesApp
         </MenuItem>
         <MenuItem name="Activities" />
         <MenuItem>
