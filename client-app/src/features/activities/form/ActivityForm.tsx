@@ -7,7 +7,6 @@ import {
   FormTextArea,
   Segment,
 } from "semantic-ui-react";
-import { Activity } from "../../../app/models/activity";
 import { useStore } from "../../../app/stores/store";
 
 export default observer(function ActivityForm() {
