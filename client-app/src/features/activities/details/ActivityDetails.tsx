@@ -27,8 +27,8 @@ export default observer(function ActivityDetails() {
   return (
     <Grid>
       <GridColumn width={10}>
-        <ActivityDetailedHeader />
-        <ActivityDetailedInfo />
+        <ActivityDetailedHeader activity={activity} />
+        <ActivityDetailedInfo activity={activity} />
         <ActivityDetailedChat />
       </GridColumn>
       <GridColumn width={6}>
