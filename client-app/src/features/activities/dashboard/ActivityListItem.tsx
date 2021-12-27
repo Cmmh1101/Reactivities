@@ -2,13 +2,17 @@ import React, { SyntheticEvent, useState } from "react";
 import { Link } from "react-router-dom";
 import {
   Button,
+  Icon,
   Item,
   ItemContent,
   ItemDescription,
   ItemExtra,
+  ItemGroup,
   ItemHeader,
   ItemMeta,
   Label,
+  Segment,
+  SegmentGroup,
 } from "semantic-ui-react";
 import { Activity } from "../../../app/models/activity";
 import { useStore } from "../../../app/stores/store";
@@ -31,7 +35,43 @@ export default function ActivityListItem({ activity }: Props) {
     deleteActivity(id);
   }
   return (
-    <Item key={activity.id}>
+    <SegmentGroup>
+      <Segment>
+        <ItemGroup>
+          <Item>
+            <Item.Image size="tiny" circular src="/assets.user.png" />
+            <ItemContent>
+              <ItemHeader as={Link} to={`/activities/${activity.id}`}>
+                {activity.title}
+              </ItemHeader>
+              <ItemDescription>Hosted by Bob</ItemDescription>
+            </ItemContent>
+          </Item>
+        </ItemGroup>
+      </Segment>
+      <Segment>
+        <span>
+          <Icon name="clock" /> {activity.date}
+          <Icon name="marker" /> {activity.venue}
+        </span>
+      </Segment>
+      <Segment secondary>Attendees go here</Segment>
+      <Segment clearing>
+        <span>{activity.description}</span>
+        <Button
+          as={Link}
+          to={`/activities/${activity.id}`}
+          color="teal"
+          floated="right"
+          content="View"
+        />
+      </Segment>
+    </SegmentGroup>
+  );
+}
+
+{
+  /* <Item key={activity.id}>
       <ItemContent>
         <ItemHeader as="a">{activity.title}</ItemHeader>
         <ItemMeta>{activity.date}</ItemMeta>
@@ -60,6 +100,5 @@ export default function ActivityListItem({ activity }: Props) {
           <Label basic content={activity.category} />
         </ItemExtra>
       </ItemContent>
-    </Item>
-  );
+    </Item> */
 }
