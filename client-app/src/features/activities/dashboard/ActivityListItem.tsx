@@ -1,4 +1,4 @@
-import React, { SyntheticEvent, useState } from "react";
+import { SyntheticEvent, useState } from "react";
 import { Link } from "react-router-dom";
 import {
   Button,
@@ -6,11 +6,8 @@ import {
   Item,
   ItemContent,
   ItemDescription,
-  ItemExtra,
   ItemGroup,
   ItemHeader,
-  ItemMeta,
-  Label,
   Segment,
   SegmentGroup,
 } from "semantic-ui-react";
@@ -23,7 +20,7 @@ interface Props {
 
 export default function ActivityListItem({ activity }: Props) {
   const { activityStore } = useStore();
-  const { deleteActivity, activitiesByDate, loading } = activityStore;
+  const { deleteActivity } = activityStore;
 
   const [target, setTarget] = useState("");
 
