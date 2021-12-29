@@ -63,4 +63,6 @@ C:\Users\cmontano\Reactivities\API\bin\Debug\net5.0\MediatR.dll
 C:\Users\cmontano\Reactivities\API\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\cmontano\Reactivities\API\bin\Debug\net5.0\AutoMapper.dll
 C:\Users\cmontano\Reactivities\API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\cmontano\Reactivities\API\obj\Debug\net5.0\API.csproj.CopyComplete
+C:\Users\cmontano\Reactivities\API\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\cmontano\Reactivities\API\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+C:\Users\cmontano\Reactivities\API\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
