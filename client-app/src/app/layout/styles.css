@@ -18,6 +18,12 @@ body {
   border-radius: 5px;
 }
 
+/* Datepicker */
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
 /* Homepage */
 
 .masthead {
