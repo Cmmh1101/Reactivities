@@ -1,6 +1,5 @@
 C:\Users\cmontano\Reactivities\Persistence\bin\Debug\net5.0\Persistence.deps.json
 C:\Users\cmontano\Reactivities\Persistence\bin\Debug\net5.0\Persistence.dll
-C:\Users\cmontano\Reactivities\Persistence\bin\Debug\net5.0\ref\Persistence.dll
 C:\Users\cmontano\Reactivities\Persistence\bin\Debug\net5.0\Persistence.pdb
 C:\Users\cmontano\Reactivities\Persistence\bin\Debug\net5.0\Domain.dll
 C:\Users\cmontano\Reactivities\Persistence\bin\Debug\net5.0\Domain.pdb
@@ -12,3 +11,5 @@ C:\Users\cmontano\Reactivities\Persistence\obj\Debug\net5.0\Persistence.csproj.C
 C:\Users\cmontano\Reactivities\Persistence\obj\Debug\net5.0\Persistence.dll
 C:\Users\cmontano\Reactivities\Persistence\obj\Debug\net5.0\ref\Persistence.dll
 C:\Users\cmontano\Reactivities\Persistence\obj\Debug\net5.0\Persistence.pdb
+C:\Users\cmontano\Reactivities\Persistence\obj\Debug\net5.0\Persistence.csproj.CopyComplete
+C:\Users\cmontano\Reactivities\Persistence\obj\Debug\net5.0\refint\Persistence.dll
