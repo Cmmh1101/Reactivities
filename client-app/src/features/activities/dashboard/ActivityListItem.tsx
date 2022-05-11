@@ -22,7 +22,7 @@ export default function ActivityListItem({ activity }: Props) {
       <Segment>
         <ItemGroup>
           <Item>
-            <Item.Image size="tiny" circular src="/assets.user.png" />
+            <Item.Image size="tiny" circular src="../assets/user.png" />
             <ItemContent>
               <ItemHeader as={Link} to={`/activities/${activity.id}`}>
                 {activity.title}
