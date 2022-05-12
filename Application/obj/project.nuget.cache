@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2nb81r8GFWLIVD08qxx1xJhcQFvb45qqLaIIpWOewehkcsSbczyhU1OQ77KApObFFSzU7xOtJ0sNexglUutbFw==",
+  "dgSpecHash": "A7+Rf79/IkEzSvG7RcIgCJK32S3YvgwTy8R8qn/pV919TyHu6Cb/8aFHHjphtZDO5WX/PWWVNBT34uaCWuEmLw==",
   "success": true,
   "projectFilePath": "C:\\Users\\cmontano\\Reactivities\\Application\\Application.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,9 @@
     "C:\\Users\\cmontano\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.3.0\\fluentvalidation.dependencyinjectionextensions.9.3.0.nupkg.sha512",
     "C:\\Users\\cmontano\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\cmontano\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+    "C:\\Users\\cmontano\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.1\\microsoft.aspnetcore.cryptography.internal.5.0.1.nupkg.sha512",
+    "C:\\Users\\cmontano\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.1\\microsoft.aspnetcore.cryptography.keyderivation.5.0.1.nupkg.sha512",
+    "C:\\Users\\cmontano\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\5.0.1\\microsoft.aspnetcore.identity.entityframeworkcore.5.0.1.nupkg.sha512",
     "C:\\Users\\cmontano\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\cmontano\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.1\\microsoft.data.sqlite.core.5.0.1.nupkg.sha512",
     "C:\\Users\\cmontano\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
@@ -26,6 +29,8 @@
     "C:\\Users\\cmontano\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.1\\microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
     "C:\\Users\\cmontano\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\cmontano\\.nuget\\packages\\microsoft.extensions.dependencymodel\\5.0.0\\microsoft.extensions.dependencymodel.5.0.0.nupkg.sha512",
+    "C:\\Users\\cmontano\\.nuget\\packages\\microsoft.extensions.identity.core\\5.0.1\\microsoft.extensions.identity.core.5.0.1.nupkg.sha512",
+    "C:\\Users\\cmontano\\.nuget\\packages\\microsoft.extensions.identity.stores\\5.0.1\\microsoft.extensions.identity.stores.5.0.1.nupkg.sha512",
     "C:\\Users\\cmontano\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
     "C:\\Users\\cmontano\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\cmontano\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",

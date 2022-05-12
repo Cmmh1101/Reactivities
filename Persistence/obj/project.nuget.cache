@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "jeywrZ0meVXSadwEuowqPRSN0MhMhmfowHkfhZbV148e+fcLKR9Wk4hjNssYmo1rXN2w1u5uMJOAn1M0p29/vw==",
+  "dgSpecHash": "xRhklfnKWjlYBaw2IxP1ztfylhQkoFg4i8t6rT0cgMyKntjCA8sd42J9yci9KYgR3hNTJWsta2fGCxkzkRQDNg==",
   "success": true,
   "projectFilePath": "C:\\Users\\cmontano\\Reactivities\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\cmontano\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.1\\microsoft.aspnetcore.cryptography.internal.5.0.1.nupkg.sha512",
+    "C:\\Users\\cmontano\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.1\\microsoft.aspnetcore.cryptography.keyderivation.5.0.1.nupkg.sha512",
+    "C:\\Users\\cmontano\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\5.0.1\\microsoft.aspnetcore.identity.entityframeworkcore.5.0.1.nupkg.sha512",
     "C:\\Users\\cmontano\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.1\\microsoft.data.sqlite.core.5.0.1.nupkg.sha512",
     "C:\\Users\\cmontano\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
     "C:\\Users\\cmontano\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.1\\microsoft.entityframeworkcore.5.0.1.nupkg.sha512",
@@ -18,6 +21,8 @@
     "C:\\Users\\cmontano\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.1\\microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
     "C:\\Users\\cmontano\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\cmontano\\.nuget\\packages\\microsoft.extensions.dependencymodel\\5.0.0\\microsoft.extensions.dependencymodel.5.0.0.nupkg.sha512",
+    "C:\\Users\\cmontano\\.nuget\\packages\\microsoft.extensions.identity.core\\5.0.1\\microsoft.extensions.identity.core.5.0.1.nupkg.sha512",
+    "C:\\Users\\cmontano\\.nuget\\packages\\microsoft.extensions.identity.stores\\5.0.1\\microsoft.extensions.identity.stores.5.0.1.nupkg.sha512",
     "C:\\Users\\cmontano\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
     "C:\\Users\\cmontano\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\cmontano\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
