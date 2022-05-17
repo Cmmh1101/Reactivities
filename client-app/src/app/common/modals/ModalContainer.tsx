@@ -12,7 +12,7 @@ export default observer(function ModalContainer() {
       onClose={modalStore.closeModal}
       size="mini"
     >
-      {}
+      {modalStore.modal.body}
     </Modal>
   );
 });
